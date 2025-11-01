@@ -30,7 +30,79 @@ $products = [
         'images' => [
         'img/eternal/mint-green-ink.jpeg',
         'img/eternal/mint-green-bottle.jpeg']
+        ],
+    'lining-black' => [
+    'name' => 'Lining Black',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Lining Black – Tinta negra para líneas precisas',
+    'images' => [
+        'img/eternal/lining-black-bottle.jpeg'
     ]
+],
+
+'triple-black' => [
+    'name' => 'Triple Black',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Triple Black – Negro intenso y sólido',
+    'images' => [
+        'img/eternal/triple-black-bottle.jpeg'
+    ]
+],
+
+'pitch-black-classic-lining' => [
+    'name' => 'Pitch Black Classic Lining',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Pitch Black Classic Lining – Negro profundo para líneas',
+    'images' => [
+        'img/eternal/pitch-black-classic-lining-bottle.jpeg'
+    ]
+],
+
+'blackbird' => [
+    'name' => 'Blackbird',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Blackbird – Negro profesional con acabado sólido',
+    'images' => [
+        'img/eternal/blackbird-bottle.jpeg'
+    ]
+],
+
+'pitch-black-concentrate' => [
+    'name' => 'Pitch Black Concentrate',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Pitch Black Concentrate – Concentrado ultra oscuro',
+    'images' => [
+        'img/eternal/pitch-black-concentrate-bottle.jpeg'
+    ]
+],
+
+'perfect-black' => [
+    'name' => 'Perfect Black',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Perfect Black – Negro balanceado y versátil',
+    'images' => [
+        'img/eternal/perfect-black-bottle.jpeg'
+    ]
+],
+
+'triple-black-andrea-afferni' => [
+    'name' => 'Triple Black (Andrea Afferni Series)',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Triple Black AA – Negro profundo para volumen y sombras',
+    'images' => [
+        'img/eternal/triple-black-andrea-afferni-bottle.jpeg'
+    ]
+],
+
+'ninja-black' => [
+    'name' => 'Ninja Black (Jess Yen Series)',
+    'price' => 140.00,
+    'desc' => 'Eternal Ink Ninja Black – Negro intenso para estilos orientales',
+    'images' => [
+        'img/eternal/ninja-black-bottle.jpeg'
+    ]
+],
+
 ];
 
 // chequea si el producto existe, si no, muestra un mensaje y sale
