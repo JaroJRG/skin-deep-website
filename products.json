@@ -1,0 +1,53 @@
+[
+    {
+        "id": 1,
+        "name": "Imperial Violet Ink",
+        "price": 150,
+        "description": "Descripción del Imperial Violet Ink...",
+        "images": [
+            "img/eternal/imperial-violet-ink.jpeg",
+            "img/eternal/imperial-violet-bottle.jpeg"
+        ],
+        "sizes": [
+            "XS",
+            "S",
+            "M",
+            "L",
+            "XL"
+        ],
+        "colors": [
+            "Black",
+            "White",
+            "Red",
+            "Blue",
+            "Green"
+        ],
+        "reviews": [
+            {
+                "user": "John Doe",
+                "date": "01 Jan 2045",
+                "rating": 4.5,
+                "comment": "Excelente tinta!"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Ocean Light Ink",
+        "price": 120,
+        "description": "Descripción del Ocean Light Ink...",
+        "images": [
+            "img/eternal/ocean-light-ink.jpeg"
+        ],
+        "sizes": [
+            "S",
+            "M",
+            "L"
+        ],
+        "colors": [
+            "Blue",
+            "Green"
+        ],
+        "reviews": []
+    }
+]
