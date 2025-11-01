@@ -63,7 +63,8 @@
     <!-- Topbar End -->
 
 
-    <!-- Navbar Start -->
+    
+            <!-- Navbar Start -->
     <div class="container-fluid bg-dark mb-30">
         <div class="row px-xl-5">
             <div class="col-lg-3 d-none d-lg-block position-relative">
@@ -377,13 +378,12 @@
     <!-- Categories End -->
 
 
-    <!-- Products Start -->
-    <div class="container-fluid pt-5 pb-3">
-        <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="pr-3">Tintas por
-                marca</span></h2>
-        <div class="row px-xl-5">
+<!-- Products Start -->
+<div class="container-fluid pt-5 pb-3">
+    <h2 class="section-title position-relative text-uppercase mx-xl-5 mb-4"><span class="pr-3">Tintas por marca</span></h2>
+    <div class="row px-xl-5">
 
-            <!-- INK -->
+        <!-- INK -->
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
@@ -399,150 +399,116 @@
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <a href="detail.php?product=sepia-dark-ink" class="stretched-link"></a>
-                        <img class="img-fluid w-100" src="img/eternal/sepia-dark-ink.jpeg"
-                            alt="Eternal Ink Sepia Dark – Tinta profesional para tatuajes">
+                        <a href="tintas-dynamic.html" class="stretched-link"></a>
+                        <img class="img-fluid w-100" src="img/dynamic-logo.webp" alt="Colección de tintas Dynamic Color">
                         <div class="product-action"></div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="detail.php?product=sepia-dark-ink">Sepia Dark Ink</a>
+                        <a class="h6 text-decoration-none text-truncate" href="tintas-dynamic.html">Dynamic</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>$123.00</h5>
+                            <small class="text-muted text-uppercase">Ver tintas</small>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <a href="detail.php?product=wine-berry-ink" class="stretched-link"></a>
-                        <img class="img-fluid w-100" src="img/eternal/wine-berry-ink.jpeg"
-                            alt="Eternal Ink Wine Berry – Tinta profesional para tatuajes">
-                        <div class="product-action">
-                        </div>
+                        <a href="tintas-world-famous.html" class="stretched-link"></a>
+                        <img class="img-fluid w-100" src="img/famous-logo.webp" alt="Colección de tintas World Famous Ink">
+                        <div class="product-action"></div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="detail.php?product=wine-berry-ink">Wine Berry Ink</a>
+                        <a class="h6 text-decoration-none text-truncate" href="tintas-world-famous.html">World Famous Ink</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>$123.00</h5>
-                            <h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <small class="text-muted text-uppercase">Ver tintas</small>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
+                 <div class="product-item bg-light mb-4">
+                    <div class="product-img position-relative overflow-hidden">
+                        <a href="tintas-radiant.html" class="stretched-link"></a>
+                        <img class="img-fluid w-100" src="img/radiant-logo.webp" alt="Colección de tintas Radiant Colors">
+                        <div class="product-action"></div>
+                    </div>
+                    <div class="text-center py-4">
+                        <a class="h6 text-decoration-none text-truncate" href="tintas-radiant.html">Radiant Colors</a>
+                        <div class="d-flex align-items-center justify-content-center mt-2">
+                            <small class="text-muted text-uppercase">Ver tintas</small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
+        <div class="row px-xl-5">
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <a href="detail.php?product=mint-green-ink" class="stretched-link"></a>
-                        <img class="img-fluid w-100" src="img/eternal/mint-green-ink.jpeg"
-                            alt="Eternal Ink Mint Green – Tinta profesional para tatuajes">
-                        <div class="product-action">
-                        </div>
+                        <a href="tintas-starbrite.html" class="stretched-link"></a>
+                        <img class="img-fluid w-100" src="img/starbrite-logo.webp" alt="Colección de tintas StarBrite Colors">
+                        <div class="product-action"></div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="detail.php?product=mint-green-ink">Mint Green Ink</a>
+                        <a class="h6 text-decoration-none text-truncate" href="tintas-starbrite.html">StarBrite Colors</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>$123.00</h5>
-                            <h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <small class="text-muted text-uppercase">Ver tintas</small>
                         </div>
                     </div>
                 </div>
             </div>
-
-    <!-- BOTTLES -->
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/eternal/triple-black-bottle.jpeg"
-                            alt="Eternal Ink Triple Black Bottle – Tinta profesional para tatuajes">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
+                        <a href="tintas-panthera.html" class="stretched-link"></a>
+                        <img class="img-fluid w-100" src="img/panthera-logo.webp" alt="Colección de tintas Panthera Ink">
+                        <div class="product-action"></div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Triple Black Bottle</a>
+                        <a class="h6 text-decoration-none text-truncate" href="tintas-panthera.html">Panthera Ink</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>$123.00</h5>
-                            <h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <small class="text-muted text-uppercase">Ver tintas</small>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/eternal/graffiti-green-bottle.jpeg"
-                            alt="Eternal Ink Graffiti Green Bottle – Tinta profesional para tatuajes">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
+                        <a href="tintas-solid-ink.html" class="stretched-link"></a>
+                        <img class="img-fluid w-100" src="img/solid-ink/solid-ink-cancun-blue.webp" alt="Colección de tintas Solid Ink">
+                        <div class="product-action"></div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Graffiti Green Bottle</a>
+                        <a class="h6 text-decoration-none text-truncate" href="tintas-solid-ink.html">Solid Ink</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>$123.00</h5>
-                            <h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <small class="text-muted text-uppercase">Ver tintas</small>
                         </div>
                     </div>
                 </div>
             </div>
-
             <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
                 <div class="product-item bg-light mb-4">
                     <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/eternal/imperial-violet-bottle.jpeg"
-                            alt="Eternal Ink Imperial Violet Bottle – Tinta profesional para tatuajes">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
+                        <a href="tintas-big-sleeps.html" class="stretched-link"></a>
+                        <img class="img-fluid w-100" src="img/big-sleeps/big-sleeps-pelican-bay-black.png" alt="Colección de tintas Big Sleeps Ink">
+                        <div class="product-action"></div>
                     </div>
                     <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Imperial Violet Bottle</a>
+                        <a class="h6 text-decoration-none text-truncate" href="tintas-big-sleeps.html">Big Sleeps Ink</a>
                         <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>$123.00</h5>
-                            <h6 class="text-muted ml-2"><del>$123.00</del></h6>
+                            <small class="text-muted text-uppercase">Ver tintas</small>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <div class="col-lg-3 col-md-4 col-sm-6 pb-1">
-                <div class="product-item bg-light mb-4">
-                    <div class="product-img position-relative overflow-hidden">
-                        <img class="img-fluid w-100" src="img/eternal/honeydev-bottle.jpeg"
-                            alt="Eternal Ink Honeydev Bottle – Tinta profesional para tatuajes">
-                        <div class="product-action">
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-shopping-cart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="far fa-heart"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-sync-alt"></i></a>
-                            <a class="btn btn-outline-dark btn-square" href=""><i class="fa fa-search"></i></a>
-                        </div>
-                    </div>
-                    <div class="text-center py-4">
-                        <a class="h6 text-decoration-none text-truncate" href="">Honeydev Bottle</a>
-                        <div class="d-flex align-items-center justify-content-center mt-2">
-                            <h5>$123.00</h5>
-                            <h6 class="text-muted ml-2"><del>$123.00</del></h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
+        </div>
+        
 
             <!-- Products End -->
 
@@ -780,7 +746,7 @@
             <!-- Products End -->
 
             <!-- Vendor Start -->
-            <div class="container-fluid py-5">
+            <!-- <div class="container-fluid py-5">
                 <div class="row px-xl-5">
                     <div class="col">
                         <div class="owl-carousel vendor-carousel">
@@ -806,7 +772,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
             <!-- Vendor End -->
 
 

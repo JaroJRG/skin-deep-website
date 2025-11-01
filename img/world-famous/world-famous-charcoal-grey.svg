@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640">
+  <rect width="640" height="640" rx="48" ry="48" fill="#1f1b2c"/>
+  <text x="50%" y="42%" font-family="'Helvetica Neue', Arial, sans-serif" font-size="52" text-anchor="middle" fill="#ffffff" font-weight="600">World Famous Ink</text>
+  <text x="50%" y="58%" font-family="'Helvetica Neue', Arial, sans-serif" font-size="36" text-anchor="middle" fill="#ffffff">World Famous Charcoal</text>
+</svg>

@@ -2,107 +2,1070 @@
 $productKey = $_GET['product'] ?? ''; // toma el producto de la URL
 
 $products = [
+    'baby-blue-ink' => [
+        'name' => 'Baby Blue Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento azul vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'bermuda-blue-ink' => [
+        'name' => 'Bermuda Blue Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento azul vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'big-sleeps-killer-bee-black' => [
+        'name' => 'Killer Bee Black Big Sleeps',
+        'price' => 285.00,
+        'desc' => 'Killer Bee Black Big Sleeps de Big Sleeps Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'big-sleeps-pelican-bay-black' => [
+        'name' => 'Pelican Bay Black Big Sleeps',
+        'price' => 285.00,
+        'desc' => 'Pelican Bay Black Big Sleeps de Big Sleeps Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'big-sleeps-venom-black' => [
+        'name' => 'Venom Black Big Sleeps',
+        'price' => 285.00,
+        'desc' => 'Venom Black Big Sleeps de Big Sleeps Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'blue-ribbon-ink' => [
+        'name' => 'Blue Ribbon Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento azul vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'blueberry-hill-ink' => [
+        'name' => 'Blueberry Hill Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento azul vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'bright-orange-ink' => [
+        'name' => 'Bright Orange Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento naranja saturado de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'bright-yellow-ink' => [
+        'name' => 'Bright Yellow Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento amarillo radiante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'brown-ink' => [
+        'name' => 'Brown Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento café cálido de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'california-orange-ink' => [
+        'name' => 'California Orange Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento naranja saturado de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'caramel-ink' => [
+        'name' => 'Caramel Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento café cálido de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'cool-medium-gray-ink' => [
+        'name' => 'Cool Medium Gray Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento gris suave de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'cotton-candy-ink' => [
+        'name' => 'Cotton Candy Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rosa luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'cream-sugar-ink' => [
+        'name' => 'Cream & Sugar Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento blanco luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'crimson-red-ink' => [
+        'name' => 'Crimson Red Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rojo vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'cuda-purple-ink' => [
+        'name' => 'Cuda Purple Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento morado profundo de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dark-brown-ink' => [
+        'name' => 'Dark Brown Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento café cálido de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dark-red-ink' => [
+        'name' => 'Dark Red Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rojo vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'deep-red-ink' => [
+        'name' => 'Deep Red Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rojo vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-black-hard-line-8oz' => [
+        'name' => 'Dynamic Black Hard Line 8oz',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Black Hard Line 8oz – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-black-ink' => [
+        'name' => 'Dynamic Black Promo',
+        'price' => 148.00,
+        'desc' => 'Dynamic Black Promo de Dynamic Color – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-blackout-tattoo-ink-blkout-8-oz' => [
+        'name' => 'Dynamic Blackout Tattoo Ink – BLKOut 8 oz',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Blackout Tattoo Ink – BLKOut 8 oz – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-blue' => [
+        'name' => 'Dynamic Blue',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Blue – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-bright-orange' => [
+        'name' => 'Dynamic Bright Orange',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Bright Orange – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-brown' => [
+        'name' => 'Dynamic Brown',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Brown – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-bubble-gum' => [
+        'name' => 'Dynamic Bubble Gum',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Bubble Gum – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-burgundy-red' => [
+        'name' => 'Dynamic Burgundy Red',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Burgundy Red – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-canary-yellow-ink' => [
+        'name' => 'Dynamic Canary Yellow',
+        'price' => 145.00,
+        'desc' => 'Dynamic Canary Yellow de Dynamic Color – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-cherry-yellow' => [
+        'name' => 'Dynamic Cherry Yellow',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Cherry Yellow – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-chinese-red' => [
+        'name' => 'Dynamic Chinese Red',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Chinese Red – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-dark-green' => [
+        'name' => 'Dynamic Dark Green',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Dark Green – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-electric-blue' => [
+        'name' => 'Dynamic Electric Blue',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Electric Blue – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-fire-red' => [
+        'name' => 'Dynamic Fire Red',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Fire Red – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-golden-yellow' => [
+        'name' => 'Dynamic Golden Yellow',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Golden Yellow – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-green' => [
+        'name' => 'Dynamic Green',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Green – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-heavy-white-ink' => [
+        'name' => 'Dynamic Heavy White',
+        'price' => 150.00,
+        'desc' => 'Dynamic Heavy White de Dynamic Color – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-hk-pink' => [
+        'name' => 'Dynamic HK Pink',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic HK Pink – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-lavender' => [
+        'name' => 'Dynamic Lavender',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Lavender – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-lemon-yellow' => [
+        'name' => 'Dynamic Lemon Yellow',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Lemon Yellow – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-light-brown' => [
+        'name' => 'Dynamic Light Brown',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Light Brown – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-lime-green' => [
+        'name' => 'Dynamic Lime Green',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Lime Green – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-magenta' => [
+        'name' => 'Dynamic Magenta',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Magenta – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-orange' => [
+        'name' => 'Dynamic Orange',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Orange – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-silver-blue' => [
+        'name' => 'Dynamic Silver Blue',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Silver Blue – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-teal' => [
+        'name' => 'Dynamic Teal',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Teal – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-triple-black-ink' => [
+        'name' => 'Dynamic Triple Black',
+        'price' => 148.00,
+        'desc' => 'Dynamic Triple Black de Dynamic Color – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-tropical-purple' => [
+        'name' => 'Dynamic Tropical Purple',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Tropical Purple – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-turquoise' => [
+        'name' => 'Dynamic Turquoise',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Turquoise – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-union-black-ink' => [
+        'name' => 'Dynamic Union Black',
+        'price' => 148.00,
+        'desc' => 'Dynamic Union Black de Dynamic Color – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-violet' => [
+        'name' => 'Dynamic Violet',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Violet – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-wax-red' => [
+        'name' => 'Dynamic Wax Red',
+        'price' => 200.00,
+        'desc' => 'Dynamic Ink Dynamic Wax Red – Tinta profesional para tatuajes',
+        'images' => [
+            '',
+        ],
+    ],
+    'dynamic-white-ink' => [
+        'name' => 'Dynamic White',
+        'price' => 150.00,
+        'desc' => 'Dynamic White de Dynamic Color – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'flamingo-pink-ink' => [
+        'name' => 'Flamingo Pink Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rosa luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'fog-ink' => [
+        'name' => 'Fog Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento gris suave de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'golden-yellow-ink' => [
+        'name' => 'Golden Yellow Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento amarillo radiante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'graffiti-green-ink' => [
+        'name' => 'Graffiti Green Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento verde brillante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'gray-ink' => [
+        'name' => 'Gray Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento gris suave de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'green-river-ink' => [
+        'name' => 'Green River Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento verde brillante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'hot-pink-ink' => [
+        'name' => 'Hot Pink Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rosa luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'imperial-violet-ink' => [
+        'name' => 'Imperial Violet Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento morado profundo de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'ivory-ink' => [
+        'name' => 'Ivory Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento blanco luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'jungle-green-ink' => [
+        'name' => 'Jungle Green Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento verde brillante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
     'lavender-ink' => [
         'name' => 'Lavender Ink',
-        'price' => 123.00,
-        'desc' => 'Eternal Ink Lavender – Tinta profesional para tatuajes',
+        'price' => 140.00,
+        'desc' => 'Pigmento lila suave de Eternal Ink ideal para detalles delicados.',
         'images' => [
-        'img/eternal/lavender-ink.jpeg',
-        'img/eternal/lavender-bottle.jpeg'
-        ]
+            '',
+        ],
     ],
-    'sepia-dark-ink' => [
-        'name' => 'Sepia Dark Ink',
-        'price' => 123.00,
-        'desc' => 'Eternal Ink Sepia Dark – Tinta profesional para tatuajes',
-        'images' => ['img/eternal/sepia-dark-ink.jpeg']
+    'light-purple-ink' => [
+        'name' => 'Light Purple Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento morado profundo de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
     ],
-    'wine-berry-ink' => [
-        'name' => 'Wine Berry Ink',
-        'price' => 123.00,
-        'desc' => 'Eternal Ink Wine Berry – Tinta profesional para tatuajes',
-        'images' => ['img/eternal/wine-berry-ink.jpeg']
+    'light-red-ink' => [
+        'name' => 'Light Red Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rojo vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'lightning-yellow-ink' => [
+        'name' => 'Lightning Yellow Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento amarillo radiante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'lime-green-ink' => [
+        'name' => 'Lime Green Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento verde brillante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'lining-black-ink' => [
+        'name' => 'Lining Black Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento negro intenso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'lipstick-red-ink' => [
+        'name' => 'Lipstick Red Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rojo vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'max-lining-black-ink' => [
+        'name' => 'MAX Lining Black Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento negro intenso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'maxx-black-ink' => [
+        'name' => 'Maxx Black Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento negro intenso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
     ],
     'mint-green-ink' => [
         'name' => 'Mint Green Ink',
-        'price' => 123.00,
-        'desc' => 'Eternal Ink Mint Green – Tinta profesional para tatuajes',
+        'price' => 140.00,
+        'desc' => 'Pigmento verde brillante de Eternal Ink ideal para trabajos profesionales.',
         'images' => [
-        'img/eternal/mint-green-ink.jpeg',
-        'img/eternal/mint-green-bottle.jpeg']
+            '',
         ],
-    'lining-black' => [
-    'name' => 'Lining Black',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Lining Black – Tinta negra para líneas precisas',
-    'images' => [
-        'img/eternal/lining-black-bottle.jpeg'
-    ]
-],
-
-'triple-black' => [
-    'name' => 'Triple Black',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Triple Black – Negro intenso y sólido',
-    'images' => [
-        'img/eternal/triple-black-bottle.jpeg'
-    ]
-],
-
-'pitch-black-classic-lining' => [
-    'name' => 'Pitch Black Classic Lining',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Pitch Black Classic Lining – Negro profundo para líneas',
-    'images' => [
-        'img/eternal/pitch-black-classic-lining-bottle.jpeg'
-    ]
-],
-
-'blackbird' => [
-    'name' => 'Blackbird',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Blackbird – Negro profesional con acabado sólido',
-    'images' => [
-        'img/eternal/blackbird-bottle.jpeg'
-    ]
-],
-
-'pitch-black-concentrate' => [
-    'name' => 'Pitch Black Concentrate',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Pitch Black Concentrate – Concentrado ultra oscuro',
-    'images' => [
-        'img/eternal/pitch-black-concentrate-bottle.jpeg'
-    ]
-],
-
-'perfect-black' => [
-    'name' => 'Perfect Black',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Perfect Black – Negro balanceado y versátil',
-    'images' => [
-        'img/eternal/perfect-black-bottle.jpeg'
-    ]
-],
-
-'triple-black-andrea-afferni' => [
-    'name' => 'Triple Black (Andrea Afferni Series)',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Triple Black AA – Negro profundo para volumen y sombras',
-    'images' => [
-        'img/eternal/triple-black-andrea-afferni-bottle.jpeg'
-    ]
-],
-
-'ninja-black' => [
-    'name' => 'Ninja Black (Jess Yen Series)',
-    'price' => 140.00,
-    'desc' => 'Eternal Ink Ninja Black – Negro intenso para estilos orientales',
-    'images' => [
-        'img/eternal/ninja-black-bottle.jpeg'
-    ]
-],
-
+    ],
+    'nocturnal-super-black-ink' => [
+        'name' => 'Nocturnal Super Black Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento negro intenso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'nuclear-green-ink' => [
+        'name' => 'Nuclear Green Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento verde brillante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'orange-ink' => [
+        'name' => 'Orange Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento naranja saturado de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'panthera-black-gold' => [
+        'name' => 'Panthera Black Gold',
+        'price' => 270.00,
+        'desc' => 'Panthera Black Gold – Mezcla balanceada para packing rápido con acabado brillante.',
+        'images' => [
+            'img/panthera/panthera-black-gold.svg',
+        ],
+    ],
+    'panthera-black-liner' => [
+        'name' => 'Panthera Black Liner',
+        'price' => 265.00,
+        'desc' => 'Panthera Black Liner – Formulación Panthera diseñada para líneas definidas y limpias.',
+        'images' => [
+            'img/panthera/panthera-black-liner.svg',
+        ],
+    ],
+    'panthera-blaze-shader' => [
+        'name' => 'Panthera Blaze Shader',
+        'price' => 265.00,
+        'desc' => 'Panthera Blaze Shader – Tono medio ideal para sombras suaves y degradados sutiles.',
+        'images' => [
+            'img/panthera/panthera-blaze-shader.svg',
+        ],
+    ],
+    'panthera-dark-sumy' => [
+        'name' => 'Panthera Dark Sumy',
+        'price' => 260.00,
+        'desc' => 'Panthera Dark Sumy – Lavado oscuro listo para lograr transiciones profundas.',
+        'images' => [
+            'img/panthera/panthera-dark-sumy.svg',
+        ],
+    ],
+    'panthera-light-sumy' => [
+        'name' => 'Panthera Light Sumy',
+        'price' => 260.00,
+        'desc' => 'Panthera Light Sumy – Versión clara del sumy Panthera para veladuras y detalles.',
+        'images' => [
+            'img/panthera/panthera-light-sumy.svg',
+        ],
+    ],
+    'panthera-tribal-xxx-black' => [
+        'name' => 'Panthera Tribal XXX Black',
+        'price' => 265.00,
+        'desc' => 'Panthera Tribal XXX Black – Negro ultra profundo para rellenos sólidos y líneas con alta saturación.',
+        'images' => [
+            'img/panthera/panthera-tribal-xxx-black.svg',
+        ],
+    ],
+    'pepto-pink-ink' => [
+        'name' => 'Pepto Pink Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rosa luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'perfect-black-ink' => [
+        'name' => 'Perfect Black Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento negro intenso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'perfect-white-ink' => [
+        'name' => 'Perfect White Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento blanco luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'pink-ink' => [
+        'name' => 'Pink Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rosa luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'pitch-black-ink' => [
+        'name' => 'Pitch Black Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento negro intenso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'purple-concentrated-ink' => [
+        'name' => 'Purple Concentrated Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento morado profundo de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'purple-haze-ink' => [
+        'name' => 'Purple Haze Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento morado profundo de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'radiant-bright-red' => [
+        'name' => 'Radiant Bright Red',
+        'price' => 220.00,
+        'desc' => 'Radiant Bright Red – Rojo intenso Radiant listo para usar con excelente fluidez.',
+        'images' => [
+            'img/radiant/radiant-bright-red.svg',
+        ],
+    ],
+    'radiant-deep-purple' => [
+        'name' => 'Radiant Deep Purple',
+        'price' => 220.00,
+        'desc' => 'Radiant Deep Purple – Morado profundo para contrastes dramáticos.',
+        'images' => [
+            'img/radiant/radiant-deep-purple.svg',
+        ],
+    ],
+    'radiant-electric-blue' => [
+        'name' => 'Radiant Electric Blue',
+        'price' => 220.00,
+        'desc' => 'Radiant Electric Blue – Azul eléctrico que destaca en trabajos de color vivo.',
+        'images' => [
+            'img/radiant/radiant-electric-blue.svg',
+        ],
+    ],
+    'radiant-golden-yellow' => [
+        'name' => 'Radiant Golden Yellow',
+        'price' => 220.00,
+        'desc' => 'Radiant Golden Yellow – Amarillo dorado con gran poder de cobertura.',
+        'images' => [
+            'img/radiant/radiant-golden-yellow.svg',
+        ],
+    ],
+    'radiant-lime-green' => [
+        'name' => 'Radiant Lime Green',
+        'price' => 220.00,
+        'desc' => 'Radiant Lime Green – Verde lima fluorescente ideal para efectos brillantes.',
+        'images' => [
+            'img/radiant/radiant-lime-green.svg',
+        ],
+    ],
+    'radiant-turquoise' => [
+        'name' => 'Radiant Turquoise',
+        'price' => 220.00,
+        'desc' => 'Radiant Turquoise – Turquesa vibrante de alta estabilidad y fácil aplicación.',
+        'images' => [
+            'img/radiant/radiant-turquoise.svg',
+        ],
+    ],
+    'red-violet-ink' => [
+        'name' => 'Red Violet Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento morado profundo de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'red-wagon-ink' => [
+        'name' => 'Red Wagon Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rojo vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'root-beer-ink' => [
+        'name' => 'Root Beer Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento café cálido de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'ruby-red-ink' => [
+        'name' => 'Ruby Red Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rojo vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'sea-shell-ink' => [
+        'name' => 'Sea Shell Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento blanco luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'sepia-dark-ink' => [
+        'name' => 'Sepia Dark Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento café cálido de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'sepia-medium-ink' => [
+        'name' => 'Sepia Medium Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento café cálido de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'sky-blue-ink' => [
+        'name' => 'Sky Blue Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento azul vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solar-flare-ink' => [
+        'name' => 'Solar Flare Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento naranja saturado de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solid-gold-ink' => [
+        'name' => 'Solid Gold Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento amarillo radiante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solid-ink-anonymous' => [
+        'name' => 'Solid Ink Anonymous',
+        'price' => 128.00,
+        'desc' => 'Solid Ink Anonymous de Solid Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solid-ink-cancun-blue' => [
+        'name' => 'Solid Ink Cancun Blue',
+        'price' => 128.00,
+        'desc' => 'Solid Ink Cancun Blue de Solid Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solid-ink-el-dorado-yellow' => [
+        'name' => 'Solid Ink El Dorado Yellow',
+        'price' => 128.00,
+        'desc' => 'Solid Ink El Dorado Yellow de Solid Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solid-ink-miami-blue' => [
+        'name' => 'Solid Ink Miami Blue',
+        'price' => 128.00,
+        'desc' => 'Solid Ink Miami Blue de Solid Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solid-ink-mint' => [
+        'name' => 'Solid Ink Mint',
+        'price' => 128.00,
+        'desc' => 'Solid Ink Mint de Solid Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'solid-ink-tiger' => [
+        'name' => 'Solid Ink Tiger',
+        'price' => 128.00,
+        'desc' => 'Solid Ink Tiger de Solid Ink – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'starbrite-army-green' => [
+        'name' => 'Army Green StarBrite',
+        'price' => 125.00,
+        'desc' => 'Army Green StarBrite de StarBrite Colors – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'starbrite-brite-green' => [
+        'name' => 'Brite Green StarBrite',
+        'price' => 125.00,
+        'desc' => 'Brite Green StarBrite de StarBrite Colors – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'starbrite-brite-white' => [
+        'name' => 'White StarBrite',
+        'price' => 125.00,
+        'desc' => 'White StarBrite de StarBrite Colors – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'starbrite-canary-yellow' => [
+        'name' => 'Canary Yellow StarBrite',
+        'price' => 125.00,
+        'desc' => 'Canary Yellow StarBrite de StarBrite Colors – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'starbrite-green-abyss' => [
+        'name' => 'Green Abyss StarBrite',
+        'price' => 125.00,
+        'desc' => 'Green Abyss StarBrite de StarBrite Colors – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'starbrite-nautical-purple' => [
+        'name' => 'Nautical Purple StarBrite',
+        'price' => 125.00,
+        'desc' => 'Nautical Purple StarBrite de StarBrite Colors – tinta profesional lista para usar.',
+        'images' => [
+            '',
+        ],
+    ],
+    'sunflower-ink' => [
+        'name' => 'Sunflower Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento amarillo radiante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'tang-orange-ink' => [
+        'name' => 'Tang Orange Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento naranja saturado de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'tangerine-ink' => [
+        'name' => 'Tangerine Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento naranja saturado de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'triple-black-ink' => [
+        'name' => 'Triple Black Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento negro intenso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'true-blue-ink' => [
+        'name' => 'True Blue Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento azul vibrante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'true-gold-ink' => [
+        'name' => 'True Gold Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento amarillo radiante de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'vivid-pink-ink' => [
+        'name' => 'Vivid Pink Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento rosa luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'warm-light-gray-ink' => [
+        'name' => 'Warm Light Gray Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento gris suave de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'white-knight-ink' => [
+        'name' => 'White Knight Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento blanco luminoso de Eternal Ink ideal para trabajos profesionales.',
+        'images' => [
+            '',
+        ],
+    ],
+    'wine-berry-ink' => [
+        'name' => 'Wine Berry Ink',
+        'price' => 140.00,
+        'desc' => 'Pigmento vino profundo de Eternal Ink para sombreados ricos.',
+        'images' => [
+            '',
+        ],
+    ],
+    'world-famous-berlin-blackout' => [
+        'name' => 'World Famous Berlin Blackout',
+        'price' => 245.00,
+        'desc' => 'World Famous Berlin Blackout – Pigmento ultra oscuro para áreas sólidas y tribal.',
+        'images' => [
+            'img/world-famous/world-famous-berlin-blackout.svg',
+        ],
+    ],
+    'world-famous-charcoal-grey' => [
+        'name' => 'World Famous Charcoal Grey',
+        'price' => 235.00,
+        'desc' => 'World Famous Charcoal Grey – Tono gris carbón perfecto para realismo y retratos.',
+        'images' => [
+            'img/world-famous/world-famous-charcoal-grey.svg',
+        ],
+    ],
+    'world-famous-pitch-black' => [
+        'name' => 'World Famous Pitch Black',
+        'price' => 240.00,
+        'desc' => 'World Famous Pitch Black – Negro versátil de World Famous con consistencia ideal para rellenos.',
+        'images' => [
+            'img/world-famous/world-famous-pitch-black.svg',
+        ],
+    ],
+    'world-famous-real-teal' => [
+        'name' => 'World Famous Real Teal',
+        'price' => 235.00,
+        'desc' => 'World Famous Real Teal – Teal vibrante con alta permanencia y brillo.',
+        'images' => [
+            'img/world-famous/world-famous-real-teal.svg',
+        ],
+    ],
+    'world-famous-rome-brown' => [
+        'name' => 'World Famous Rome Brown',
+        'price' => 235.00,
+        'desc' => 'World Famous Rome Brown – Café cálido ideal para texturas de piel y sombras suaves.',
+        'images' => [
+            'img/world-famous/world-famous-rome-brown.svg',
+        ],
+    ],
+    'world-famous-sailor-jerry-red' => [
+        'name' => 'World Famous Sailor Jerry Red',
+        'price' => 235.00,
+        'desc' => 'World Famous Sailor Jerry Red – Rojo clásico inspirado en el estilo tradicional americano.',
+        'images' => [
+            'img/world-famous/world-famous-sailor-jerry-red.svg',
+        ],
+    ],
 ];
 
 // chequea si el producto existe, si no, muestra un mensaje y sale
@@ -142,33 +1105,33 @@ if (!$product) {
 </head>
 
 <body>
-    <!-- Topbar Start -->
+        <!-- Topbar Start -->
     <div class="container-fluid">
         <div class="row align-items-center bg-light py-3 px-xl-5 d-none d-lg-flex">
             <div class="col-lg-4">
-                <a href="index.php" class="text-decoration-none">
-                    <img src="img/BigDreamsLogo.png" height="100px" style="margin-left: 15px;" alt="Neto Shop Logo">
+                <a href="" class="text-decoration-none">
+                    <img src="img/BigDreamsLogo.png" height="100px" style="margin-left: 15px;" alt="">
                 </a>
             </div>
             <div class="col-lg-4 col-6 text-left">
-                <form action="#" method="get">
+                <form action="">
                     <div class="input-group">
-                        <input type="text" name="q" class="form-control" placeholder="Search for products">
+                        <input type="text" class="form-control" placeholder="Search for products">
                         <div class="input-group-append">
-                            <button type="submit" class="input-group-text bg-transparent text-primary">
+                            <span class="input-group-text bg-transparent text-primary">
                                 <i class="fa fa-search"></i>
-                            </button>
+                            </span>
                         </div>
                     </div>
                 </form>
             </div>
             <div class="col-lg-4 col-6 text-right">
-                <p class="m-0 mb-1">Contáctanos por WhatsApp</p>
+                <p class="m-0" style="padding-bottom: 20px;">Contáctanos por Whatsapp</p>
                 <a href="https://wa.me/525570666253" target="_blank" style="text-decoration: none;">
-                    <h5 class="m-0 d-inline-flex align-items-center" style="color: inherit;">
+                    <h5 class="m-0 d-inline-flex align-items-center" style="color:white inherit;">
                         <img src="https://cdn.jsdelivr.net/gh/simple-icons/simple-icons/icons/whatsapp.svg"
-                             alt="WhatsApp" width="20" height="20"
-                             style="margin-right: 10px; filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg);" />
+                            alt="WhatsApp" width="20" height="20"
+                            style="margin-right: 10px; filter: invert(50%) sepia(100%) saturate(500%) hue-rotate(90deg);" />
                         +52 55 7066 6253
                     </h5>
                 </a>
@@ -177,88 +1140,93 @@ if (!$product) {
     </div>
     <!-- Topbar End -->
 
-<!-- Navbar Start -->
-<div class="container-fluid bg-dark mb-30">
-    <div class="row px-xl-5">
-        <div class="col-lg-3 d-none d-lg-block position-relative">
-            <a class="btn d-flex align-items-center justify-content-between bg-primary w-100" data-toggle="collapse"
-                href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
-                <h6 class="text-dark m-0">
-                    <i class="fa fa-bars mr-2"></i>Categorías
-                </h6>
-                <i class="fa fa-angle-down text-dark"></i>
-            </a>
 
-            <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light"
-                id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
-                <div class="navbar-nav w-100">
-                    <a href="#" class="nav-item nav-link">Máquinas rotativas</a>
-                    <a href="#" class="nav-item nav-link">Fuentes y pedales</a>
-                    <a href="#" class="nav-item nav-link">Cartuchos y agujas</a>
-                    <a href="#" class="nav-item nav-link">Tinta para tatuar</a>
-                    <a href="#" class="nav-item nav-link">Anestesia y cuidado</a>
-                    <a href="#" class="nav-item nav-link">Higiene y desinfección</a>
-                    <a href="#" class="nav-item nav-link">Mobiliario y lámparas</a>
-                    <a href="#" class="nav-item nav-link">Transfer e impresoras</a>
-                    <a href="#" class="nav-item nav-link">Guantes y consumibles</a>
-                    <a href="#" class="nav-item nav-link">Accesorios y extras</a>
-                </div>
-            </nav>
-        </div>
-        <div class="col-lg-9">
-            <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
-                <a href="index.php" class="text-decoration-none d-block d-lg-none">
-                    <img src="img/BigDreamsLogo.png" height="80px" style="margin-left: 0px;" alt="Neto Shop Logo">
+    <!-- Navbar Start -->
+    <div class="container-fluid bg-dark mb-30">
+        <div class="row px-xl-5">
+            <div class="col-lg-3 d-none d-lg-block position-relative">
+                <a class="btn d-flex align-items-center justify-content-between bg-primary w-100" data-toggle="collapse"
+                    href="#navbar-vertical" style="height: 65px; padding: 0 30px;">
+                    <h6 class="text-dark m-0">
+                        <i class="fa fa-bars mr-2"></i>Categorías
+                    </h6>
+                    <i class="fa fa-angle-down text-dark"></i>
                 </a>
-                <div class="d-flex flex-column align-items-center" style="margin-right: 40px;">
-                    <button type="button" class="navbar-toggler mb-1" data-toggle="collapse"
-                        data-target="#navbarCollapse">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <p class="mt-1 mb-0 font-weight-bold text-uppercase" style="font-size: 14px;">MENÚ</p>
-                </div>
-                <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
-                    <div class="navbar-nav mr-auto py-0">
-                        <a href="index.php" class="nav-item nav-link active" title="Inicio - Neto Shop">Inicio</a>
 
-                        <div class="nav-item dropdown">
-                            <a href="shop.php" class="nav-link dropdown-toggle" data-toggle="dropdown"
-                                title="Catálogo de productos">
-                                Productos <i class="fa fa-angle-down mt-1"></i>
-                            </a>
-                            <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
-                                <a href="category-tintas.php" class="dropdown-item">Tintas</a>
-                                <a href="category-cartuchos.php" class="dropdown-item">Cartuchos</a>
-                                <a href="category-maquinas.php" class="dropdown-item">Máquinas</a>
-                                <a href="category-anestesia.php" class="dropdown-item">Anestesia</a>
-                                <a href="category-guantes.php" class="dropdown-item">Guantes</a>
-                                <a href="shop.php" class="dropdown-item font-italic" style="color: #ffffff;">Ver más</a>
+                <nav class="collapse position-absolute navbar navbar-vertical navbar-light align-items-start p-0 bg-light"
+                    id="navbar-vertical" style="width: calc(100% - 30px); z-index: 999;">
+                    <div class="navbar-nav w-100">
+                        <a href="#" class="nav-item nav-link">Máquinas rotativas</a>
+                        <a href="#" class="nav-item nav-link">Fuentes y pedales</a>
+                        <a href="#" class="nav-item nav-link">Cartuchos y agujas</a>
+                        <a href="#" class="nav-item nav-link">Tinta para tatuar</a>
+                        <a href="#" class="nav-item nav-link">Anestesia y cuidado</a>
+                        <a href="#" class="nav-item nav-link">Higiene y desinfección</a>
+                        <a href="#" class="nav-item nav-link">Mobiliario y lámparas</a>
+                        <a href="#" class="nav-item nav-link">Transfer e impresoras</a>
+                        <a href="#" class="nav-item nav-link">Guantes y consumibles</a>
+                        <a href="#" class="nav-item nav-link">Accesorios y extras</a>
+                    </div>
+                </nav>
+            </div>
+            <div class="col-lg-9">
+                <nav class="navbar navbar-expand-lg bg-dark navbar-dark py-3 py-lg-0 px-0">
+                    <a href="" class="text-decoration-none d-block d-lg-none">
+                        <img src="img/BigDreamsLogo.png" height="80px" style="margin-left: 0px;" alt="">
+                    </a>
+                    <div class="d-flex flex-column align-items-center" style="margin-right: 40px;">
+                        <button type="button" class="navbar-toggler mb-1" data-toggle="collapse"
+                            data-target="#navbarCollapse">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <p class="mt-1 mb-0 font-weight-bold text-uppercase" style="font-size: 14px;">MENÚ</p>
+                    </div>
+                    <div class="collapse navbar-collapse justify-content-between" id="navbarCollapse">
+                        <div class="navbar-nav mr-auto py-0">
+                            <a href="index.php" class="nav-item nav-link active"
+                                title="Inicio - Big Dreams Tattoo Supply">Inicio</a>
+
+                            <div class="nav-item dropdown">
+                                <a href="shop.html" class="nav-link dropdown-toggle" data-toggle="dropdown"
+                                    title="Catálogo de productos">
+                                    Productos <i class="fa fa-angle-down mt-1"></i>
+                                </a>
+                                <div class="dropdown-menu bg-primary rounded-0 border-0 m-0">
+                                    <a href="category-tintas.html" class="dropdown-item">Tintas</a>
+                                    <a href="category-cartuchos.html" class="dropdown-item">Cartuchos</a>
+                                    <a href="category-maquinas.html" class="dropdown-item">Máquinas</a>
+                                    <a href="category-anestesia.html" class="dropdown-item">Anestesia</a>
+                                    <a href="category-guantes.html" class="dropdown-item">Guantes</a>
+                                    <a href="shop.html" class="dropdown-item font-italic" style="color: #ffffff;">Ver
+                                        más</a>
+                                </div>
                             </div>
-                        </div>
 
-                        <a href="contact.php" class="nav-item nav-link" title="Contáctanos para dudas, pedidos o soporte">Contacto</a>
-                        <a href="cart.php" class="nav-item nav-link" title="Revisar productos agregados al carrito">
-                            <i class="fas fa-shopping-cart mr-2"></i>Carrito
-                        </a>
+                            <a href="contact.html" class="nav-item nav-link"
+                                title="Contáctanos para dudas, pedidos o soporte">Contacto</a>
+                            <a href="index.php#/cart" class="nav-item nav-link"
+                                title="Revisar productos agregados al carrito">
+                                <i class="fas fa-shopping-cart mr-2"></i>Carrito
+                            </a>
+                        </div>
+                        <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
+                            <a href="" class="btn px-0">
+                                <i class="fas fa-heart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle"
+                                    style="padding-bottom: 2px;">0</span>
+                            </a>
+                            <a href="#" class="btn px-0 ml-3 snipcart-checkout">
+                                <i class="fas fa-shopping-cart text-primary"></i>
+                                <span class="badge text-secondary border border-secondary rounded-circle"
+                                    style="padding-bottom: 2px;">0</span>
+                            </a>
+                        </div>
                     </div>
-                    <div class="navbar-nav ml-auto py-0 d-none d-lg-block">
-                        <a href="#" class="btn px-0">
-                            <i class="fas fa-heart text-primary"></i>
-                            <span class="badge text-secondary border border-secondary rounded-circle"
-                                style="padding-bottom: 2px;">0</span>
-                        </a>
-                        <a href="#" class="btn px-0 ml-3 snipcart-checkout">
-                            <i class="fas fa-shopping-cart text-primary"></i>
-                            <span class="badge text-secondary border border-secondary rounded-circle"
-                                style="padding-bottom: 2px;">0</span>
-                        </a>
-                    </div>
-                </div>
-            </nav>
+                </nav>
+            </div>
         </div>
     </div>
-</div>
-<!-- Navbar End -->
+    <!-- Navbar End -->
 
 <!-- Breadcrumb Start -->
 <div class="container-fluid">
